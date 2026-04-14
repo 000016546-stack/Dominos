@@ -1,0 +1,79 @@
+/* BANNER */
+.banner{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto 40px auto;
+
+    display:grid;
+    grid-template-columns:1.5fr 1fr; /* mejor proporción */
+    gap:15px;
+
+    overflow:visible;
+    position:relative;
+}
+
+/* POSICIÓN */
+
+/* IMAGEN GRANDE */
+.img-grande img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
+    transform: translateY(40px); /* baja tdas las imagenes */
+}
+
+/* CONTENEDOR DERECHA */
+.img-chicas{
+    display:grid;
+    grid-template-rows:1fr 1fr; /* vertical */
+    gap:15px;
+}
+
+/* IMÁGENES CHICAS */
+.img-chicas img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
+    transform: translateY(40px); /* baja tdas las imagenes */
+}
+
+/* TEXTO */
+.contenido-banner{
+    position:absolute;
+    top:-50px;  /*sube y baja los botones */
+    left:50%;
+    transform:translateX(-50%);
+    color:#017ec7;
+}
+
+/* FILA */
+.fila-banner{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px; /* separa los botone del texto */
+    transform: scale(1.3); /* todo más grande de botones */
+}
+
+/* TITULO */
+.contenido-banner h1{
+    font-size:22px;
+    white-space:nowrap;
+}
+
+/* BOTONES */
+.botones{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    white-space:nowrap;
+}
+
+.botones span{
+    font-weight:bold;
+}
+

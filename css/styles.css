@@ -1,0 +1,119 @@
+/* FUENTE */
+@font-face{
+    font-family: 'adirek';
+    src: url('../fonts/adirek-sans-regular.ttf');
+}
+
+/* ,,, */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+body{
+    background:#Fefaf6;
+    color:#222;
+    font-family: 'adirek', sans-serif;
+    font-weight:400;
+}
+
+h1{
+    font-weight:700;
+}
+
+/* GRID */
+.grid{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+/*CARD */
+.card{
+    background:white;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+/* OVERLAY */
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* MODALES */
+.modal-producto,
+.modal-login{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    width:300px;
+}
+
+/* CARRITO */
+.carrito{
+    text-align:center;
+    margin-top:50px;
+}
+
+/* INPUTS */
+.modal-login input{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+/* BOTONES LOGIN */
+.modal-login .btn{
+    width:100%;
+    margin-top:10px;
+}
+
+/* BOTÓN */
+.btn{
+    background:#e70000;
+    color:white;
+    padding:6px 22px;
+    border:none;
+    border-radius:8px;
+    font-weight:700;
+    font-size:14px;
+    cursor:pointer;
+    box-shadow:0 3px 0 #b8142b;
+
+    display:inline-block;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background:#e70000;
+}

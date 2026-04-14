@@ -1,0 +1,39 @@
+/* MODAL PRODUCTO */
+.modal-producto{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+/* IMAGEN PRODUCTO */
+.modal-producto img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* INFO */
+.info-producto{
+    max-width:300px;
+}
+
+/* TITULO */
+.info-producto h2{
+    margin-bottom:10px;
+}
+
+/* DESCRIPCION */
+.info-producto p{
+    margin-bottom:10px;
+}
+
+/* PRECIO */
+.precio{
+    font-weight:bold;
+    font-size:20px;
+}

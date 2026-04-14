@@ -1,0 +1,89 @@
+/* HEADER */
+header{
+    background:#0090e2;
+    padding:5px 0;
+}
+
+.top-bar{
+    width:95%;
+    max-width:1400px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; /* NO CAMBIAR */
+}
+
+/* LOGO */
+.logo img{
+    width:65px;
+    height:auto;
+}
+
+/* MENU */
+.menu{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+}
+
+.menu a:nth-child(1),
+.menu a:nth-child(2),
+.menu a:nth-child(3){
+    margin-right:35px;
+}
+
+.menu a:nth-child(4),
+.menu a:nth-child(5){
+    margin-left:15px;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    font-size:25px; /*agranda tdas las letras en blanco */
+}
+
+.menu a:hover{
+    opacity:0.8;
+}
+
+.menu a.activo{
+    border-bottom:3px solid white;
+    padding-bottom:5px;
+}
+
+/* BAJAR SOLO TEXTO + ICONOS (SIN MOVER LINEA AZUL) */
+.menu-izq{
+    display:flex;
+    gap:35px; /* separación */
+    transform: translateY(10px); /*   */
+}
+
+.menu-der{
+    display:flex;
+    gap:15px; 
+    transform: translateY(10px); /*  */
+}
+
+/* ICONOS */
+.icono{
+    width:28px;
+    height:28px;
+}
+
+.carrito-icono{
+    width:70px;
+    height:70px;
+}
+
+/* LINEA AZUL */
+.linea-azul{
+    width:100%;
+    height:20px; /*hace mas gruesa la linea*/
+    background: #0090e2;
+}
